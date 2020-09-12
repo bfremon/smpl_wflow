@@ -1,0 +1,12 @@
+digraph {
+
+node [fontname="arial"]
+node [fontsize=10]
+edge [fontsize=10]
+
+"Start of processing" -> "Second step of processing" -> "Third step of
+processing" -> "Fourth step of processing" -> "Fifth step of
+processing" -> "Sixth step of processing" -> "Seven step of
+processing" -> "Eighth step of processing"
+
+}

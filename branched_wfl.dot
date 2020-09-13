@@ -1,8 +1,9 @@
 digraph {
 
-node [fontname="arial"]
-node [fontsize=10]
-edge [fontsize=10]
+graph [dpi = 300]
+node [fontname = "arial"]
+node [fontsize = 10]
+edge [fontsize = 10]
 
 "Start of processing" -> "Second step of processing" -> "Third step of
 processing"

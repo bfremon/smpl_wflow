@@ -1,0 +1,16 @@
+digraph {
+
+#graph [dpi = "300"]
+node [fontname = "arial"]
+node [fontsize = 10]
+edge [fontsize = 10]
+
+start [label = "Start of processing" color = "red" fontcolor = "red"]
+second [label = "Second step of processing" color = "green"]
+third [label = "Third step of processing" color = "blue"]
+four [label = "Fourth  step of processing\nfoo bar foo bar\nfoo bar foo bar "
+     color = "blue" fillcolor = "yellow"]
+
+start -> second -> third
+four -> third
+}

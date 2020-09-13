@@ -9,6 +9,7 @@ all: $(files)
 
 $(wildcard *.dot):
 	$(dot) -Tpng -o$(subst dot,png,$@) $@
+	$(dot) -Tsvg -o$(subst dot,svg,$@) $@
 
 install:
 	$(apt_install) $(packages)
@@ -17,3 +18,4 @@ install:
 
 clean:
 	$(rm) *.png
+	$(rm) *.svg
